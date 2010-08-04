@@ -1,0 +1,3 @@
+post-review --server=http://review.ua.inlead.dk --review-request-id=290 --revision-range=a317fe7cc7978164b91c0b9846f573ac5204dfea --summary="Case 2555 - test" --bugs-closed=2555 --target-groups=code_review_ua --submit-as=lagoda -p -d
+post-review --server=http://review.ua.inlead.dk --review-request-id=290 --parent=a317fe7cc7978164b91c0b9846f573ac5204dfea --summary="Case 2555 - test" --bugs-closed=2555 --target-groups=code_review_ua --submit-as=lagoda -p -d
+post-review --server=http://review.ua.inlead.dk --review-request-id=290 --revision=a317fe7cc7978164b91c0b9846f573ac5204dfea --summary="Case 2555 - test" --bugs-closed=2555 --target-groups=code_review_ua --submit-as=lagoda -p -d
